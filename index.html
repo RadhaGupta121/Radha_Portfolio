@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="index.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <section class="navbar">
+            <div class="flex fixed top-0 w-screen z-10 px-6 py-2 m-px text-white-950 bg-blue-950 justify-end" id="main">
+                <ul class="flex gap-2 flex-row  px-2 py-1 m-2  l no-underline list-none">
+                    <li class="text-white">
+                         <a class="section-link" href="#">Home</a>
+                    </li>
+                    <li class="text-white">
+                         <a class="section-link" href="#about">About</a>
+                    </li>
+                    <li class="text-white">
+                         <a class="section-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="text-white">
+                         <a class="section-link" href="#MyWork">Projects</a>
+                    </li>
+                    <li class="text-white">
+                         <a class="section-link" href="#Contact">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </section>
+        <section class="main">
+            <div class="flex justify-center gap-2 px-11 bg-black flex-wrap  pb-40 ">
+                <div class="myIntro  text-white">
+                    <h1 class="text-4xl">Hello , Myself <span class="text-red-400">Radha gupta</span></h1>
+                    <span class="text-blue-400 text-2xl py-3">Passionate </span><span class="text-green-400 py-3 text-2xl">Software Developer</span>
+                </div>
+                <div class="logoDiv m-2 px-12  pt-10 mb-2 pb-4">
+                    <img class="logo w-96 h-96 -mt-10;" src="mylog.jpg" alt="not found" />
+                </div>
+            </div>
+
+        </section>
+        <section  class="about">
+            <div class="block pb-10">
+                <h2 class="animate about text-center font-extrabold text-white text-4xl">About</h2>
+            </div>
+            <div id="about" class=" flex justify-center bg-black flex-wrap pt-5 pb-40  text-white">
+               
+                <div class="imgLogo w-1/2 max-md:w-full">
+                   <img class="logo w-96 h-96 -mt-10;" src="aboutme (2).png" alt="not found"/>
+
+                </div>
+                <div class="aboutMe w-1/3 max-md:w-full">
+                    <p class="animate text-xl mt-12">
+                        I'm a passionate software engineer, I specialize in MERN stack development and have a strong skill set in both C++ and Java. My dedication to software engineering drives me to deliver innovative solutions and drive projects to success. With a deep enthusiasm for technology,
+                         I continually seek to expand my knowledge and make a meaningful impact in the field.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="experience" class="bg-black">
+            <h1 class="text-center text-purple-500 font-bold text-3xl mt-2 ">My Experience</h1>
+            <div class="experience flex gap-7 justify-center flex-wrap mt-12 ">
+            
+            <div class="recent animate w-72 h-80 bg-pink-400 ">
+                <p class="text-black text-lg m-4 p-6 ">Associate Software Developer<br/><span class="text-blue-900 text-lg font-bold">Ercisson India Global pvt ltd</span></p>
+                <p class="jobrole text-sm text-black px-6 ">
+                    
+                    • Applied strong analytical thinking and problem-solving skills to identify, analyze, and resolve automation.<br/>
+                    • Played a pivotal role in optimizing code for test scripts results in  enhancing overall team productivity.
+                    
+                </p>
+            </div>
+            <div class="recent animate w-72 h-80 bg-pink-400">
+                <p class="text-black text-lg m-4 p-6 ">Software Developer<br/><span class="text-blue-900 text-lg font-bold">India Advocacy</span></p>
+                <p class="jobrole text-sm text-black px-6 ">Successfully implemented changes to the company website, enhancing its functionality and user experience
+                 <br>   • Developed automation scripts using Java to streamline repetitive tasks,resulting in improved efficiency and time</p>
+            </div>
+            <div class="recent animate w-72 h-80 bg-pink-400">
+                <p class="text-black text-lg m-4 p-6 ">Frontend Developer<br/><span class="text-blue-900 text-lg font-bold">QuadMonk's Solution</span></p>
+                <p class="jobrole text-sm text-black px-6 ">
+                    • Responsible for the accessibility and performance optimizations of websites across devices
+<br>• Utilized Agile methodologies to adapt to changing project requirements, delivering high-quality software on schedule.
+
+                </p>
+            </div>
+        </div>
+
+        </section>
+        <section id="MyWork" class="MyWork  bg-black mt-32">
+            <div class="block justify-center mt-12 mb-12 ">
+                <h1 class="about text-center font-extrabold text-white text-4xl">Let's See My <span>Work</span></h1></div>
+         
+           <div class="animate flex flex-wrap justify-center gap-7  pt-12 pb-12">
+               <div class="UI w-72 h-56  bg-purple-200 " >
+            <h1 class="m-4 p-6">Wanna see my <span class="text-red-600 font-bold">UI skills</span>? Just Click on Below link</h1>
+           <center><a class="visit text-center px-5 py-1 mb-10"
+             href="https://radhagupta121.github.io/Digital_Marketing/service.html">Visit</a></center> 
+           </div>
+           <div class="animate API UI w-72 h-56  bg-purple-200 ">
+            <h1 class="m-4 p-6">Have a look on my <span class="text-green-400 font-bold">MERN Stack Projects</span></h1>
+          <center><a class="visit text-center px-5 py-1 mb-10" href="">Visit</a></center> 
+           </div>
+           <div class="animate major project UI w-72 h-56  bg-purple-200 ">
+            <h1 class="m-4 p-6">Visit <span class="text-pink-500 font-bold">File sharing Application</span> and <span>Share </span> your file!</h1>
+          <center><a class="visit text-center px-5 py-1 mb-10" href="">Visit</a></center> 
+           </div>
+           </div>
+        </section>
+        <section id="Contact" class="Contact  mt-10">
+            <h1 class="about text-center font-extrabold text-white text-4xl">Contact Me</h1>
+        <div class="animate bg-black flex  justify-center gap-10 flex-wrap min-h-max mt-20" >
+           
+            <div class="form text-teal-600  h-50 ">
+               <form>
+                <input type="text" placeholder="Name" class="w-60 mx-10 my-2"/><br/>
+                <input type="text" placeholder="Mobile No" class="w-60 mx-10 my-2"/><br/>
+                <input type="text" placeholder="email id" class="w-60 mx-10 my-2"/><br/>
+                <div class="flex flex-wrap gap:2 ">
+                    <textarea cols="40" rows="2" placeholder="Enter your message" class=" mx-10 my-2"></textarea>
+                    <Submit class="submit bg-pink-600 px-6 py-2 my-10 md:ml-10;">Submit</Submit>
+                <style>
+                    @media screen and (max-width:780px) {
+                       .submit{
+                        margin:auto;
+                        margin-top: 2rem;
+                       } 
+                       .logo{
+                        width: 13rem;
+                        height: 13rem;
+                        margin-top: 3rem;
+                        /* margin-left: 1rem; */
+                    }
+                    h1{
+                        font-size: 1rem;
+                    }
+                    .logoDiv{
+                        margin-top: 10rem;
+                        margin-left: 1rem;
+                    }
+                    .imgLogo{
+                        display: flex;
+                        justify-content: center;
+                    }
+                    .imgLogo>img{
+                        padding: 1rem 1rem 1rem 1rem;
+
+                    }
+                    input, textarea{
+                        width: auto;
+                        height: 2.5rem;
+                        padding-left: 1rem;
+                    }
+                    }
+                    input, textarea{
+                        width: auto;
+                        height: 2.5rem;
+                        padding-left: 1rem;
+                    }
+                    textarea{
+                        height: 5rem;
+                    }
+                    .submit,.visit{
+                        border-radius: 12px;
+                        background-color: rgb(242, 39, 107);
+                        color:white;
+                        font-size: 1.3rem;
+                        transition: all ease-in 0.5;                       
+                    }
+                    .submit:hover, .visit:hover{
+                         cursor:pointer;
+                         background-color: rgb(248, 108, 131);
+                         color:black;
+                    }
+                    body{
+                        background-color: black;
+                    }
+                    .myIntro{
+                        margin-left: 3rem;
+                    }
+                    .aboutMe{
+                        padding: 1rem 1rem 1rem 1rem;
+                    }
+                    .aboutMe>p{
+                        text-align: left;
+                    }
+                    li>a{
+                        font-size: 1rem;
+                        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                        
+                    }
+                   li>a:hover{
+                        color:palevioletred;
+                    }
+                </style>
+                </div>
+                
+               </form> 
+            </div>
+            <div class="animate Contact text-pink-600 w-72 h-50 px-2.5 py-2.5 ">
+              <p class="text-sm font-bold">
+                You can mail me on 1radha21@gmail.com for any queries.
+                Also can connect with me on LinkedIn and Instagram.
+                I'm always open to new connections and exciting opportunities. Don't hesitate to get in touch!
+              </p>
+              <div class="text-white mt-8">
+              <!-- <a class="px-1 mx-1" href="https://www.whatsapp.com/yourprofile" target="_blank"><i class="fab fa-whatsapp fa-3x "></i></a> -->
+              <a class="px-1 mx-1" href="https://www.instagram.com/1Radha21" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+              <a class="px-1 mx-1" href="https://www.linkedin.com/in//radha-gupta-941974239/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+              <a class="px-1 mx-1" href="https://github.com//RadhaGupta121" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+                <!-- Add more social media links and icons as needed -->
+                
+              </div>
+            </div>
+            
+        </div>
+        </section>
+        <section id="footer" class="footer">
+
+        </section>
+    </div>
+    <script src="app.js"></script>
+    <script>
+       
+
+    </script>
+</body>
+
+</html>
